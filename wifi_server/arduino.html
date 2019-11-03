@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh_TW">
+	<head>
+		<meta charset="utf-8">
+		<title>arduino_website</title>
+		<script type="text/javascript">
+			function moveGo(){
+				alert("Moving forword!");
+			}
+			function moveLeft(){
+				alert("Turning left!");
+			}
+			function moveRight(){
+				alert("Turning right!");
+			}
+			function moveBack(){
+				alert("Moving back!");
+			}
+		</script>
+	</head>
+	<body>
+		<Button id = "go" onClick = "moveGo()">Go</Button>
+		<Button id = "turn_left" onClick = "moveLeft()">Turn Left</Button>
+		<Button id = "turn_right" onClick = "moveRight()">Turn Right</Button>
+		<Button id = "back" onClick = "moveBack()">Back</Button>
+	</body>
+</html>
