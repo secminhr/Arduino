@@ -4,8 +4,8 @@
 #define motorBGo D1
 #define motorBBack D2
 
-const char* ssid = "ii-home";
-const char* password = "0936225432";
+const char* ssid = "";
+const char* password = "";
 WiFiServer server(80);
 void setup() {
   Serial.begin(115200);
